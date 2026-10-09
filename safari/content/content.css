@@ -1,0 +1,28 @@
+/**
+ * Safari Magic Cursor & Trail - Content Stylesheet
+ */
+
+/* Canvas Overlay luôn nằm đè lên mọi trang web mà không cản trở click */
+.safari-trail-canvas-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 2147483647 !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  background: transparent !important;
+  overflow: hidden !important;
+}
+
+/* Tùy chọn bảo vệ các phần tử nhập văn bản không bị che khuất con trỏ I-beam */
+.safari-cursor-active input[type="text"],
+.safari-cursor-active input[type="search"],
+.safari-cursor-active input[type="password"],
+.safari-cursor-active input[type="email"],
+.safari-cursor-active textarea,
+.safari-cursor-active [contenteditable="true"] {
+  cursor: text !important;
+}

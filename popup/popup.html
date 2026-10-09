@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Click Đa Điểm</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <div class="logo-box">⚡</div>
+      <div class="header-info">
+        <h1>Auto Click Đa Điểm</h1>
+        <span class="version">v2.1.0 • Manifest V3</span>
+      </div>
+    </header>
+
+    <div class="popup-content">
+      <!-- Nút khởi động / Bật-Ẩn nhanh trên tab hiện tại -->
+      <button class="action-btn-primary" id="btn-toggle-floating">
+        ⚡ Bật / Ẩn Auto Clicker (<span id="btn-toggle-hotkey-text">Alt+A</span>)
+      </button>
+
+      <div class="status-card">
+        <div class="status-indicator">
+          <span class="dot"></span>
+          <span id="active-status">Tiện ích đang hoạt động</span>
+        </div>
+        <div class="status-details" id="storage-summary">
+          Đang đọc dữ liệu...
+        </div>
+      </div>
+
+      <div class="hotkeys-guide">
+        <div class="guide-title">⌨️ Phím Tắt Tiện Dụng</div>
+        <div class="hotkey-row">
+          <span class="key-badge highlight" id="key-toggle">Alt+A</span>
+          <span class="key-desc">Khởi động / Bật / Ẩn Auto Clicker</span>
+        </div>
+        <div class="hotkey-row">
+          <span class="key-badge" id="key-record">F2</span>
+          <span class="key-desc">Bật / Tắt ghi nhớ điểm click</span>
+        </div>
+        <div class="hotkey-row">
+          <span class="key-badge" id="key-run">F4</span>
+          <span class="key-desc">Bắt đầu chạy / Dừng kịch bản</span>
+        </div>
+        <div class="hotkey-row">
+          <span class="key-badge">Esc</span>
+          <span class="key-desc">Dừng khẩn cấp bất kỳ lúc nào</span>
+        </div>
+      </div>
+
+      <div class="features-list">
+        <div class="feature-item">
+          <span class="icon">🚀</span>
+          <span><strong>Khởi động theo yêu cầu:</strong> Không tự mở cùng web. Bấm <code>Alt+A</code> để mở hoặc ẩn.</span>
+        </div>
+        <div class="feature-item">
+          <span class="icon">💾</span>
+          <span><strong>Lưu trữ vĩnh viễn:</strong> Toàn bộ kịch bản, bộ đếm và phím tắt được lưu an toàn 100%.</span>
+        </div>
+        <div class="feature-item">
+          <span class="icon">🔄</span>
+          <span><strong>Chuỗi tuần hoàn 2 chiều:</strong> Nối tiếp kịch bản tự động kèm độ trễ độc lập.</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="popup-footer">
+      <button class="action-btn" id="btn-open-test">🧪 Mở Trang Thử Nghiệm Click</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

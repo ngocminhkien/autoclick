@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Auto Click Đa Kịch Bản</string>
+    <string name="accessibility_service_description">Dịch vụ này được sử dụng để tự động thực hiện thao tác chạm (click) và vuốt theo các điểm bạn đã thiết lập trên màn hình.</string>
+    
+    <string name="perm_accessibility_title">Quyền Hỗ Trợ Tiếp Cận (Accessibility)</string>
+    <string name="perm_accessibility_desc">Cần bật dịch vụ để ứng dụng có thể thay bạn chạm vào màn hình trong game và ứng dụng khác.</string>
+    <string name="btn_enable_accessibility">Bật Hỗ Trợ Tiếp Cận</string>
+    <string name="status_enabled">ĐÃ BẬT</string>
+    <string name="status_disabled">CHƯA BẬT</string>
+    
+    <string name="perm_overlay_title">Quyền Hiển Thị Trên Ứng Dụng Khác</string>
+    <string name="perm_overlay_desc">Cần cấp quyền này để thanh điều khiển và các điểm ghim số (1, 2, 3...) có thể nổi trên màn hình.</string>
+    <string name="btn_enable_overlay">Cấp Quyền Vẽ Nổi</string>
+    
+    <string name="btn_start_service">🚀 KHỞI ĐỘNG THANH ĐIỀU KHIỂN NỔI</string>
+    <string name="btn_stop_service">⏹️ DỪNG THANH ĐIỀU KHIỂN</string>
+</resources>

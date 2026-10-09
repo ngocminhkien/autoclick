@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="pawShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#f43f5e" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Main pad -->
+  <ellipse cx="16" cy="18" rx="8" ry="6.5" fill="#fbcfe8" stroke="#f43f5e" stroke-width="1.8" filter="url(#pawShadow)"/>
+  <!-- 4 Toe beans -->
+  <ellipse cx="8.5" cy="10" rx="3" ry="4" transform="rotate(-20 8.5 10)" fill="#fda4af" stroke="#f43f5e" stroke-width="1.5"/>
+  <ellipse cx="13.5" cy="7" rx="3.2" ry="4.2" transform="rotate(-5 13.5 7)" fill="#fda4af" stroke="#f43f5e" stroke-width="1.5"/>
+  <ellipse cx="18.5" cy="7" rx="3.2" ry="4.2" transform="rotate(5 18.5 7)" fill="#fda4af" stroke="#f43f5e" stroke-width="1.5"/>
+  <ellipse cx="23.5" cy="10" rx="3" ry="4" transform="rotate(20 23.5 10)" fill="#fda4af" stroke="#f43f5e" stroke-width="1.5"/>
+  <!-- Inner heart on main pad -->
+  <circle cx="16" cy="18" r="3.5" fill="#fb7185"/>
+</svg>

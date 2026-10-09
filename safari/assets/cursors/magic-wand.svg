@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="wandGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#ffd700" flood-opacity="0.9"/>
+    </filter>
+    <linearGradient id="wandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Wand stick -->
+  <line x1="8" y1="8" x2="27" y2="27" stroke="url(#wandGrad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Wand handle band -->
+  <line x1="20" y1="20" x2="26" y2="26" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <!-- Star tip -->
+  <polygon points="6,0 8,5 13,6 8,8 6,13 5,8 0,6 5,5" 
+           fill="#ffd700" 
+           stroke="#ffffff" 
+           stroke-width="0.8" 
+           filter="url(#wandGlow)"/>
+  <!-- Secondary mini spark -->
+  <polygon points="14,1 15,3 17,3.5 15,4 14,6 13.5,4 11.5,3.5 13.5,3" fill="#ffffff"/>
+  <circle cx="6" cy="6" r="1.5" fill="#ffffff"/>
+</svg>
