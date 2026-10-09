@@ -1,6 +1,16 @@
-# Auto Click Đa Điểm - Chrome & Edge Extension (Manifest V3)
+# Auto Click Đa Điểm - Multi-Script Auto Clicker (Web & Android APK)
 
-Tiện ích mở rộng trình duyệt hỗ trợ tự động click nhiều điểm với cơ chế ghi nhớ tọa độ bằng phím tắt, chạy vòng lặp tùy chỉnh và lưu trữ dữ liệu vĩnh viễn trên ổ cứng máy tính.
+Tiện ích mở rộng trình duyệt và **Ứng dụng Android APK** hỗ trợ tự động click đa kịch bản với cơ chế điều phối ưu tiên, vòng lặp tuần hoàn và chạy nền hệ thống.
+
+---
+
+### 📲 TẢI ỨNG DỤNG ANDROID (APK TRỰC TIẾP)
+- **Link tải trực tiếp file APK về điện thoại (Không cần giải nén):**  
+  👉 **[Tải AutoClicker-v2.1.apk (5.7 MB)](https://github.com/ngocminhkien/autoclick/raw/main/apk/AutoClicker-v2.1.apk)**  
+  *(Chỉ cần bấm vào link trên bằng trình duyệt của điện thoại Android, file `.apk` sẽ tự động tải về để cài đặt ngay lập tức).*
+- **Xem hướng dẫn sử dụng chi tiết trên Android:** [android_autoclicker/HUONG_DAN_BUILD_APK.md](android_autoclicker/HUONG_DAN_BUILD_APK.md)
+
+---
 
 ## Tính Năng Chính
 - **Ghi nhớ đa điểm bằng phím tắt:** Nhấn `F2` để bắt đầu ghi các điểm click, nhấn lại `F2` để lưu.
